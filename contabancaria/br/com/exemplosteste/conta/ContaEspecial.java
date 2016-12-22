@@ -2,7 +2,7 @@ package br.com.exemplosteste.conta;
 
 import br.com.exemplosteste.pessoa.Pessoa;
 
-public class ContaEspecial extends Conta{
+public class ContaEspecial extends Conta implements ContaCorrente{
 	
  private  final boolean ESPECIAL=true;
 
@@ -25,6 +25,24 @@ public class ContaEspecial extends Conta{
 		System.out.println("Cliente" +this.getCliente().getNome());
 		System.out.println("Idade"+this.getCliente().getIdade());
 		System.out.println("Conta Simples: "+this.isESPECIAL());
+		
+	}
+
+	@Override
+	public void saca(double valor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deposita(double valor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void transferePara(Conta origem, Conta destino) {
+		// TODO Auto-generated method stub
 		
 	}
 

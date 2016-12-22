@@ -6,6 +6,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
+import br.com.exemplosteste.conta.ContaSimples;
 import br.com.exemplosteste.pessoa.Pessoa;
 import br.com.exemplosteste.pessoa.PessoaFisica;
 
@@ -15,7 +16,12 @@ public class Test {
 		// TODO Auto-generated method stub
 		Pessoa douglas= new PessoaFisica("Douglas", 21, new Date("11/11/2011") , "12345");
 		
-		douglas.mostraDados();
+		//douglas.mostraDados();
+		
+		ContaSimples contasimples= new ContaSimples(12,douglas);
+		
+		
+		contasimples.mostraConta();
 		
 		
 		
