@@ -6,6 +6,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
+import br.com.exemplosteste.conta.ContaEspecial;
 import br.com.exemplosteste.conta.ContaSimples;
 import br.com.exemplosteste.pessoa.Pessoa;
 import br.com.exemplosteste.pessoa.PessoaFisica;
@@ -23,6 +24,9 @@ public class Test {
 		
 		contasimples.mostraConta();
 		
+		System.out.println();
+		ContaEspecial contaEspecial= new ContaEspecial(1,douglas);
+		contaEspecial.mostraConta();
 		
 		
 		

@@ -7,9 +7,22 @@ public abstract class Conta {
 	private int numero;
 	private Pessoa cliente;
 	private double saldo=0.0;
+	private boolean eEspecial= false;
 	
 	
 	
+	public boolean iseEspecial() {
+		return eEspecial;
+	}
+
+
+
+	public void seteEspecial(boolean eEspecial) {
+		this.eEspecial = eEspecial;
+	}
+
+
+
 	public Conta(int numero,Pessoa cliente){
 		this.setNumero(numero);
 		this.setCliente(cliente);
@@ -53,7 +66,15 @@ public abstract class Conta {
 	}
 	
 
-	public abstract void mostraConta();
+	public void mostraConta() {
+		System.out.println("Minha Conta");
+		System.out.println("Numero:"+ this.getNumero());
+		System.out.println("Cliente:" +this.getCliente().getNome());
+		System.out.println("Idade:"+this.getCliente().getIdade());
+		System.out.println("Saldo:R$"+this.getSaldo()+"0");
+		System.out.println("Conta Especial:"+this.iseEspecial());
 	
+		
+	}
 	
 }

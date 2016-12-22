@@ -16,17 +16,7 @@ public class ContaSimples extends Conta implements ContaCorrente{
 		return ESPECIAL;
 	}
 
-	@Override
-	public void mostraConta() {
-		System.out.println("Minha Conta");
-		System.out.println("Numero:"+ this.getNumero());
-		System.out.println("Cliente:" +this.getCliente().getNome());
-		System.out.println("Idade:"+this.getCliente().getIdade());
-		System.out.println("Saldo:R$"+this.getSaldo()+"0");
-		System.out.println("Conta Especial:"+this.isESPECIAL());
 	
-		
-	}
 
 
 	@Override
