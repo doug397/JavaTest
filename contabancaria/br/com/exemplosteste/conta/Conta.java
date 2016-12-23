@@ -2,7 +2,7 @@ package br.com.exemplosteste.conta;
 
 import br.com.exemplosteste.pessoa.Pessoa;
 
-public abstract class Conta {
+public abstract class Conta implements ContaCorrente {
 		
 	private int numero;
 	private Pessoa cliente;

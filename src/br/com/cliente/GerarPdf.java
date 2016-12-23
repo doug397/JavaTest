@@ -66,7 +66,7 @@ public class GerarPdf {
 	  
 	
 	   PdfPCell header= new PdfPCell(new Paragraph("Lista de Clientes"));
-	 header.setBackgroundColor(BaseColor.YELLOW);
+	   header.setBackgroundColor(BaseColor.YELLOW);
 /*	   header.setBorderWidthBottom(2.0f);
 	   header.setBorderColorBottom(BaseColor.BLUE);
 	   header.setBorder(Rectangle.BOTTOM);*/

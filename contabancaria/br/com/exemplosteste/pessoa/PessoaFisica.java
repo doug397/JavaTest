@@ -23,21 +23,21 @@ public class PessoaFisica extends Pessoa {
 	}
 
 
-
-
 	@Override
 	public void mostraDados() {
-		
 		System.out.println("Meus Dados");
 		System.out.println("Nome: "+this.getNome());
 		System.out.println("Idade:"+this.getIdade());
-		System.out.println("Cpf: "+this.getCpf());
-	    String data=this.toString();
+		System.out.println("CPF: "+this.getCpf());
+		
+		 String data=this.toString();
 		System.out.println("Data Nascimento: "+data);
 		
-		
 	}
-	
+
+
+
+
 	
 
 }

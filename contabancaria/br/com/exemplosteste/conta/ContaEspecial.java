@@ -2,7 +2,7 @@ package br.com.exemplosteste.conta;
 
 import br.com.exemplosteste.pessoa.Pessoa;
 
-public class ContaEspecial extends Conta implements ContaCorrente{
+public class ContaEspecial extends Conta {
 	
 
 
@@ -12,12 +12,6 @@ public class ContaEspecial extends Conta implements ContaCorrente{
 		
 		
 	}
-	
-
-	
-	
-
-
 
 	@Override
 	public void saca(double valor) {
@@ -36,6 +30,14 @@ public class ContaEspecial extends Conta implements ContaCorrente{
 		// TODO Auto-generated method stub
 		
 	}
+	
+
+	
+	
+
+
+
+	
 
 
 

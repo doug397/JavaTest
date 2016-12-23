@@ -67,14 +67,14 @@ public class ConexaoBD {
 			}catch(SQLException e){
 				System.out.println("ERro ao inserir: "+e.getMessage());
 			}finally{
-				/*
+				
 				try{
 					stm.close();
-					System.out.println("")
+					System.out.println("");
 					
 				}catch(SQLException ex){
-					System.out.println("ERRO AO FECHAR BANCO: "e.getMessage());
-				}*/
+					System.out.println("ERRO AO FECHAR BANCO: "+ex.getMessage());
+				}
 			}
 			
 			

@@ -2,7 +2,7 @@ package br.com.exemplosteste.conta;
 
 import br.com.exemplosteste.pessoa.Pessoa;
 
-public class ContaSimples extends Conta implements ContaCorrente{
+public class ContaSimples extends Conta {
 	
 	private final boolean ESPECIAL=false;
 
@@ -15,8 +15,6 @@ public class ContaSimples extends Conta implements ContaCorrente{
 	public boolean isESPECIAL() {
 		return ESPECIAL;
 	}
-
-	
 
 
 	@Override
@@ -38,4 +36,9 @@ public class ContaSimples extends Conta implements ContaCorrente{
 		// TODO Auto-generated method stub
 		
 	}
+
+	
+
+
+	
 }
